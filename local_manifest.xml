@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <remote name="dev-msm8916"
+                fetch="https://github.com/dev-msm8916" />
         <remote name="xoo2001"
                 fetch="https://github.com/xoo2001" />
         
-        <project path="device/infinix/X682C" name="device_infinix_X682C" remote="xoo2001" revision="lineage-18.1" clone-depth="1" />
-        <project path="vendor/infinix/X682C" name="vendor_infinix_X682C" remote="xoo2001" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/lenovo/a6000" name="android_device_lenovo_a6000-old" remote="xoo2001" revision="android-10.0" clone-depth="1" />
+        <project path="vendor/lenovo/a6000" name="vendor_lenovo_a6000" remote="dev-msm8916" revision="android-10.0" clone-depth="1" />
+        <project path="kernel/lenovo/a6000" name="koo" remote="xoo2001" revision="lineage-17.1" clone-depth="1" />
 
 </manifest>
