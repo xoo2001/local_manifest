@@ -6,7 +6,7 @@
         
         <project path="device/cyanogen/msm8916-common" name="device_cyanogen_msm8916-common" remote="xoo2001" revision="lineage-18.1" clone-depth="1" />
         <project path="kernel/xiaomi/msm8916" name="android_kernel_xiaomi_msm8916" remote="xoo2001" revision="lineage-18.1" clone-depth="1" />
-        <project path="device/xiaomi/ido" name="device_xiaomi_ido" remote="xoo2001" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/xiaomi/ido" name="device_xiaomi_ido" remote="xoo2001" revision="ban" clone-depth="1" />
         <project path="vendor/xiaomi/ido" name="vendor_xiaomi_ido" remote="xoo2001" revision="nad-11" clone-depth="1" />
 
 </manifest>
